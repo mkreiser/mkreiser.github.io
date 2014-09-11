@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WaffleTracker</title>
+
+    <meta charset="utf-8" />
+
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/ionic.bundle.js"></script>
+    <script src="js/ionic.js"></script>
+
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-53247724-1', 'auto');
+	  ga('require', 'displayfeatures');
+	  ga('send', 'pageview');
+
+	</script>
+
+    <link rel="stylesheet" href="css/ionic.css">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body ng-app="ionic">
+
+	<div class="tabs" id="tabs">
+	  <span class="tab-item" id="sButton">Scrypt</span>
+	  <span class="tab-item" id="nButton">Scrypt-N</span>
+	  <span class="tab-item" id="x11Button">X11</span>
+	  <span class="tab-item" id="x13Button">X13</span>
+	  <span class="tab-item" id="wButton">Wallet</span>
+	  <span class="tab-item" onclick="window.open('../index.html')">My Site</span>
+	</div>
+
+	<div class="list card" id="sContent">
+		<div class="item item-divider cardHead" id="cardHead2">Scrypt<div style="float:right;padding-right:10px;"><i class="icon ion-refresh"></i></div></div>
+		<div class="item">Hashrate: <span id="scryptHash"></span></div>
+		<div class="item">Sent: <span id="scryptSent"></span></div>
+		<div class="item">Unsent: <span id="scryptUnsent"></span></div>
+		<div class="item">Total: <span id="scryptTotal"></span></div>
+		<div class="item item-divider cardHead4" id="cardHead3">Get for Android on Google Play<div style="float:right;padding-right:10px;"><i class="icon ion-android-playstore"></i></div></div>
+	</div>
+
+	<div class="list card" id="nContent">
+		<div class="item item-divider cardHead" id="cardHead2">Scrypt-N<div style="float:right;padding-right:10px;"><i class="icon ion-refresh"></i></div></div>
+		<div class="item">Hashrate: <span id="scryptnHash"></span></div>
+		<div class="item">Sent: <span id="scryptnSent"></span></div>
+		<div class="item">Unsent: <span id="scryptnUnsent"></span></div>
+		<div class="item">Total: <span id="scryptnTotal"></span></div>
+		<div class="item item-divider cardHead4" id="cardHead3">Get for Android on Google Play<div style="float:right;padding-right:10px;"><i class="icon ion-android-playstore"></i></div></div>
+	</div>
+
+	<div class="list card" id="x11Content">
+		<div class="item item-divider cardHead" id="cardHead2">X11<div style="float:right;padding-right:10px;"><i class="icon ion-refresh"></i></div></div>
+		<div class="item">Hashrate: <span id="x11Hash"></span></div>
+		<div class="item">Sent: <span id="x11Sent"></span></div>
+		<div class="item">Unsent: <span id="x11Unsent"></span></div>
+		<div class="item">Total: <span id="x11Total"></span></div>
+		<div class="item item-divider cardHead4" id="cardHead3">Get for Android on Google Play<div style="float:right;padding-right:10px;"><i class="icon ion-android-playstore"></i></div></div>
+	</div>
+
+	<div class="list card" id="x13Content">
+		<div class="item item-divider cardHead" id="cardHead2">X13<div style="float:right;padding-right:10px;"><i class="icon ion-refresh"></i></div></div>
+		<div class="item">Hashrate: <span id="x13Hash"></span></div>
+		<div class="item">Sent: <span id="x13Sent"></span></div>
+		<div class="item">Unsent: <span id="x13Unsent"></span></div>
+		<div class="item">Total: <span id="x13Total"></span></div>
+		<div class="item item-divider cardHead4" id="cardHead3">Get for Android on Google Play<div style="float:right;padding-right:10px;"><i class="icon ion-android-playstore"></i></div></div>
+	</div>
+
+	<div class="list card" id="wContent">
+		<div class="item item-divider cardHead" id="cardHead2">Wallet<div style="float:right;padding-right:10px;"><i class="icon ion-refresh"></i></div></div>
+		<div class="item">Earned: <span id="totalEarned"></span></div>
+		<div class="item">Sent: <span id="totalSent"></span></div>
+		<label class="item item-input"><input type="text" placeholder="Wafflepool Address" id="waffleForm"></label>
+		<div class="item">BTC/USD: <span id="bitRate"></span></div>
+		<div class="item">Balance: <span id="bitAm"></span></div>
+		<div class="item">USD Equiv: <span id="usdAm"></span></div>
+		<div class="item item-divider cardHead4" id="cardHead3">Get for Android on Google Play<div style="float:right;padding-right:10px;"><i class="icon ion-android-playstore"></i></div></div>
+	</div>
+	
+
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+</body>
+</html>

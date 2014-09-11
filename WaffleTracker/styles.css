@@ -1,0 +1,308 @@
+@font-face{
+	font-family: 'Roboto-Light';
+	src:url('fonts/RobotoTTF/Roboto-Light.ttf');
+}
+
+@font-face{
+	font-family: 'Roboto-Regular';
+	src:url('fonts/RobotoTTF/Roboto-Regular.ttf');
+}
+
+* {margin: 0; padding: 0;}
+
+body { 
+	-webkit-user-select:none;
+	font-family: 'Roboto-Light', sans-serif; 
+	font-size: 40px; 
+	background-color: #EEEEEE;
+	width: 100%; 
+	height: 100% !important;
+	color: #000000;
+	text-shadow: 0px 1px 1px #444;
+	overflow: visible;
+	min-width: 400px;
+}
+
+html {
+	height: 100%
+}
+
+.ui-mobile, .ui-mobile body {
+height: 100%;
+}
+
+.cardHead:hover{
+	cursor: pointer;
+}
+
+.cardHead4:hover{
+	cursor: pointer;
+}
+
+a {
+	-webkit-user-select:none; -webkit-touch-callout:none;
+}
+
+.cardHead{
+	z-index: 99;
+}
+
+.list.card{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.item{
+	font-size: 60px;
+	line-height: 100%;
+	padding: 20px 0 20px 20px;
+}
+
+input[type="text"]{
+	font-size: 32px;
+	line-height: 100%;
+	padding:0;
+	color: #444;
+	font-family: 'Roboto-Light';
+	text-shadow: 0px 1px 1px #444;
+}
+
+.tab-item{
+	margin: 0;
+	line-height: 60px;
+	box-sizing: content-box;
+	font-size: 30px;
+	color:#FFFFFF;
+	font-family: 'Roboto-Light';
+	opacity: 1;
+	max-width: 200px;
+}
+
+#cardHead2{
+	font-size: 40px;
+	padding: 20px 0 20px 20px;
+	line-height: 100%;
+	background-color: #F7931A;
+	color: #FFFFFF;
+	z-index: 99;
+}
+
+#cardHead3{
+	font-size: 20px;
+	padding: 20px 0 20px 20px;
+	line-height: 100%;
+	background-color: #F7931A;
+	color: #FFFFFF;
+	z-index: 99;
+}
+
+#tabs{
+	height: 60px;
+	background-color: #F7931A;
+	position: relative;
+	top: 0;
+}
+
+#sContent{
+	margin: auto;
+	position: relative;
+	top: 40px; left: 0; bottom: 0; right: 0;
+}
+
+#nContent{
+	margin: auto;
+	position: relative;
+	top: 40px; left: 0; bottom: 0; right: 0;
+}
+
+#x11Content{
+	margin: auto;
+	position: relative;
+	top: 40px; left: 0; bottom: 0; right: 0;
+}
+
+#x13Content{
+	margin: auto;
+	position: relative;
+	top: 40px; left: 0; bottom: 0; right: 0;
+}
+
+#wContent{
+	margin: auto;
+	position: relative;
+	top: 40px; left: 0; bottom: 0; right: 0;
+}
+
+@media all and (max-width:900px) and (min-width: 641px){
+	.item{
+		font-size: 40px;
+		line-height: 100%;
+		padding: 20px 0 20px 20px;
+	}
+
+	.tab-item{
+		line-height: 60px;
+		font-size: 28px;
+	}
+
+	#cardHead2{
+		font-size: 28px;
+		line-height: 100%;
+	}
+
+	input[type="text"]{
+		font-size: 20px;
+		line-height: 100%;
+	}
+
+	#tabs{
+		height: 60px;
+	}
+
+	#sContent{
+		margin: auto;
+		position: relative;
+		top: 40px; left: 0; bottom: 0; right: 0;
+	}
+
+	#nContent{
+		margin: auto;
+		position: relative;
+		top: 40px; left: 0; bottom: 0; right: 0;
+	}
+
+	#x11Content{
+		margin: auto;
+		position: relative;
+		top: 40px; left: 0; bottom: 0; right: 0;
+	}
+
+	#x13Content{
+		margin: auto;
+		position: relative;
+		top: 40px; left: 0; bottom: 0; right: 0;
+	}
+
+	#wContent{
+		margin: auto;
+		position: relative;
+		top: 40px; left: 0; bottom: 0; right: 0;
+	}
+}
+
+@media all and (max-width:640px) and (min-width: 491px){
+	.item{
+		font-size: 28px;
+		line-height: 100%;
+		padding: 20px 0 20px 20px;
+	}
+
+	.tab-item{
+		line-height: 60px;
+		font-size: 22px;
+	}
+
+	#cardHead2{
+		font-size: 20px;
+		line-height: 100%;
+		padding: 20px 0 20px 20px;
+	}
+
+	#tabs{
+		height: 60px;
+	}
+
+	input[type="text"]{
+		font-size: 15px;
+		line-height: 100%;
+	}
+
+	#sContent{
+		margin: auto;
+		position: relative;
+		top: 40px; left: 0; bottom: 0; right: 0;
+	}
+
+	#nContent{
+		margin: auto;
+		position: relative;
+		top: 40px; left: 0; bottom: 0; right: 0;
+	}
+
+	#x11Content{
+		margin: auto;
+		position: relative;
+		top: 40px; left: 0; bottom: 0; right: 0;
+	}
+
+	#x13Content{
+		margin: auto;
+		position: relative;
+		top: 40px; left: 0; bottom: 0; right: 0;
+	}
+
+	#wContent{
+		margin: auto;
+		position: relative;
+		top: 40px; left: 0; bottom: 0; right: 0;
+	}
+}
+
+@media all and (max-width:490px){
+	.item{
+		font-size: 20px;
+		line-height: 100%;
+		padding: 20px 0 20px 20px;
+	}
+
+	.tab-item{
+		line-height: 60px;
+		font-size: 15px;
+	}
+
+	#cardHead2{
+		font-size: 20px;
+		line-height: 100%;
+		padding: 20px 0 20px 20px;
+	}
+
+	#tabs{
+		height: 60px;
+	}
+
+	input[type="text"]{
+		font-size: 15px;
+		line-height: 100%;
+	}
+
+	#sContent{
+		margin: auto;
+		position: relative;
+		top: 40px; left: 0; bottom: 0; right: 0;
+	}
+
+	#nContent{
+		margin: auto;
+		position: relative;
+		top: 40px; left: 0; bottom: 0; right: 0;
+	}
+
+	#x11Content{
+		margin: auto;
+		position: relative;
+		top: 40px; left: 0; bottom: 0; right: 0;
+	}
+
+	#x13Content{
+		margin: auto;
+		position: relative;
+		top: 40px; left: 0; bottom: 0; right: 0;
+	}
+
+	#wContent{
+		margin: auto;
+		position: relative;
+		top: 40px; left: 0; bottom: 0; right: 0;
+	}
+}
