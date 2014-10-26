@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>todo</title>
+		<meta name="author" content="Mike Kreiser"/>
+
+		<link href="css/ionic.css" rel="stylesheet" type="text/css">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+
+		<script src="client/js/ionic.bundle.js"></script>
+		<script src='client/js/jquery-1.11.1.min.js'></script>
+		<script src="client/js/jQueryColor.js"></script>
+  		<script src='client/js/todo.client.js'></script>
+  		<script src='index.js'></script>
+	</head>
+	<body id="container">
+		<div>
+			<div class="centered" id="loginPage">
+				<div id="header" style="padding-bottom:10px;">todo</div>
+
+				<label class="item item-input front-buffer"><input id="emailInput" type="text" placeholder="Email"></label>
+				<label class="item item-input front-buffer"><input id="passwordInput" type="password" placeholder="Password" onkeypress="handleKeyPress(event)"></label>
+				<div style="padding-top:22px;">
+					<button class="button button-custom" onclick="logIn();">Log In</button>
+					<button class="button button-custom" style="margin-left:16px;" onclick="signUp();">Sign Up</button>
+				</div>
+				<div class="card itemCustom" id="errorBox1" style="display:none;padding:10px;"></div>
+			</div>
+
+			<div id="mainContent" style="display:none;width:100%;height:100%;">
+				<div class="centered2">
+					<div style="margin-left: 10px; margin-right:10px;">
+						<div id="topper">todo</div>
+						<button class="button button-custom" style="float:right;margin-top:17px;" onclick="logOut();">logout</button>
+					</div>
+					<div id="todoList" style="padding-top:10px;padding-bottom:50px;">
+
+					</div>
+				</div>
+			</div>
+
+			<div class="centered" id="welcome">welcome</div>
+		</div>
+	</body>
+</html>

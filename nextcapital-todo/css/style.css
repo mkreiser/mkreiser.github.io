@@ -1,0 +1,85 @@
+@font-face{
+  font-family: 'Roboto-Light';
+  src:url('../fonts/RobotoTTF/Roboto-Light.ttf');
+}
+
+@font-face{
+  font-family: 'Roboto-Regular';
+  src:url('../fonts/RobotoTTF/Roboto-Regular.ttf');
+}
+
+*{margin: 0;padding: 0}
+
+body{
+	font-family: 'Roboto-Light';
+}
+
+input{
+	font-family: 'Roboto-Light';
+}
+
+.button-custom{
+	width: 140px;
+	font-family: 'Roboto-Light';
+}
+
+.centered{
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 300px;
+  height: 300px;
+}
+
+.centered2{
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 80%;
+  height: 100%;
+  color: #fff;
+}
+
+.front-buffer{
+	margin-top: 10px;	
+}
+
+.itemCustom{
+  margin-top: 10px;
+}
+
+.orgButtons{
+  display: inline-block;
+  float: right;
+}
+
+.placeholder-icon:hover{
+  color: #000;
+}
+
+#container{
+  background-color: #00A8C6;
+}
+
+#header{
+	color: #F9F2E7;
+	font-size: 70px;
+	text-align: center;
+	line-height: 70px;
+}
+
+#topper{
+	font-size:40px;
+	line-height:40px;
+	padding-top:20px;
+	display:inline-block;
+}
+
+#welcome{
+  color: #fff;
+  font-size: 70px;
+  line-height: 70px;
+  text-align: center;
+  height: 100px;
+  display: none;
+}
