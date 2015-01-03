@@ -36,7 +36,8 @@ img {
     margin-right: auto;
 }
 .icon{
-    font-size:200%;
+    font-size:180%;
+    padding-right:5px;
 }
 .normalContent{
     font-size: 160%;
