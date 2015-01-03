@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('fonts/RobotoTTF/Roboto-Light.ttf');
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('fonts/RobotoTTF/Roboto-Regular.ttf');
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    cursor:default;
+    font-family: 'Roboto-Light';
+}
+img{
+    height: 50%;
+    display: inline-block;
+}
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.normalContent div{
+    font-size: 105%;
+}
+.pictext{
+    display: inline-block;
+    position: absolute;
+    padding-left:20px;
+;}
+.rel{
+    position: relative;
+}
+.superHeader{
+	font-size: 350%;
+}
+#frontpageName {
+    color: #FFF;
+    font-size: 400%;
+    text-align: center;
+}
+#second {
+    color: #AAA;
+}
+#second .header {
+    color: #777;
+    font-size: 275%;
+}
+#third{
+	color:#DDD;
+}
+#third .header{
+	color: #999;
+    font-size: 275%;
+}
+#fourth {
+    color: #AAA;
+}
+#fourth .header {
+    color: #777;
+    font-size: 275%;
+}
+#fourth .superHeader{
+	color: #777;
+}
+#fourth div{
+    padding: 4px 0 4px 0;
+}
+#flipbook{
+    background-color: #f7921d;
+    color: #fff;
+}
+#bwt{
+    background-color: #159B6A;
+    color: #fff;
+}
+#waffletracker{
+    background-color: #F7931A;
+    color: #FFF;
+}
+#pandatracker{
+    background-color: #00CBFF;
+    color:#FFF;
+}
+#humorways{
+    background-color: rgb(13,33,65);
+    color: #FFF;
+}
