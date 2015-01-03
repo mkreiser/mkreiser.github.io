@@ -523,7 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 13143,
+				"buffer_size": 15141,
 				"line_ending": "Windows"
 			}
 		},
@@ -563,15 +563,19 @@
 				"Git: Push"
 			],
 			[
+				"quick",
+				"Git: Quick Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
 				"quic",
 				"Git: Quick Commit"
 			],
 			[
 				"ad",
-				"Git: Add..."
-			],
-			[
-				"add",
 				"Git: Add..."
 			],
 			[
@@ -593,10 +597,6 @@
 			[
 				"stat",
 				"Git: Status"
-			],
-			[
-				"quick",
-				"Git: Quick Commit"
 			],
 			[
 				"status",
@@ -840,6 +840,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"deficiencies",
 			"\">\n",
 			"span",
 			"p",
@@ -966,8 +967,7 @@
 			"Erie",
 			"Crawford",
 			"Ashland",
-			"SWAYUS00250",
-			"SWYAUS00030"
+			"SWAYUS00250"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -995,15 +995,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13143,
+						"buffer_size": 15141,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7188,
-								7188
+								5841,
+								5841
 							]
 						],
 						"settings":
@@ -1068,13 +1068,13 @@
 								"bh_double_quote_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/SalmonOnIce (SL).tmTheme",
-							"spell_check": false,
+							"spell_check": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 756.0,
+						"translation.y": 1124.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
