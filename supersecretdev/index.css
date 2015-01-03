@@ -18,6 +18,10 @@ body {
     cursor: default;
     font-family: 'Roboto-Light';
 }
+p{
+    margin-top:0;
+    margin-bottom: .5em;
+}
 img {
     height: 50%;
     display: inline-block;
@@ -92,4 +96,8 @@ img {
 #humorways {
     background-color: rgb(13, 33, 65);
     color: #FFF;
+}
+#snowice {
+    background-color:#000;
+    color:#FFF;
 }
