@@ -1,0 +1,1302 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"git",
+				"git_command"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"event",
+				"eventParam"
+			],
+			[
+				"reco",
+				"recoveryGoal"
+			],
+			[
+				"timef",
+				"timeFromMonthStart"
+			],
+			[
+				"first",
+				"firsttime"
+			],
+			[
+				"rec",
+				"recovery"
+			],
+			[
+				"update",
+				"updateEvent"
+			],
+			[
+				"red",
+				"redTimeFromStart"
+			],
+			[
+				"current",
+				"current"
+			],
+			[
+				"recover",
+				"recoveryGoal"
+			],
+			[
+				"time",
+				"timeFromStart"
+			],
+			[
+				"firs",
+				"firstdate"
+			],
+			[
+				"fir",
+				"firstminute"
+			],
+			[
+				"get",
+				"getTime"
+			],
+			[
+				"route",
+				"routeMaster"
+			],
+			[
+				"cha",
+				"changeEvent"
+			],
+			[
+				"ERIE",
+				"ERIE"
+			],
+			[
+				"C",
+				"CRAWFORD"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"ro",
+				"routeMaster"
+			],
+			[
+				"dis",
+				"districtRoutes"
+			],
+			[
+				"county",
+				"countyParam"
+			],
+			[
+				"count",
+				"countyParam"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"not",
+				"notification"
+			],
+			[
+				"loc",
+				"locCount"
+			],
+			[
+				"subl",
+				"sublabelShow"
+			],
+			[
+				"show",
+				"sublabelShow"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"End",
+				"End"
+			],
+			[
+				"sub",
+				"sublabelShow"
+			],
+			[
+				"pd",
+				"padding"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"la",
+				"Lato"
+			],
+			[
+				"Robot",
+				"Roboto-Regular"
+			],
+			[
+				"Robo",
+				"Roboto-Regular"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"m",
+				"margin-bottom"
+			],
+			[
+				"inln",
+				"inline-block"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"s",
+				"span	Tag"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sea",
+				"searchArray"
+			],
+			[
+				"sear",
+				"searchHTML"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"waffle",
+				"waffleAddress"
+			],
+			[
+				"sc",
+				"scrypt"
+			],
+			[
+				"par",
+				"parse"
+			],
+			[
+				"alert",
+				"alertCount"
+			],
+			[
+				"parse",
+				"parseFloat"
+			],
+			[
+				"path",
+				"pathCrumb"
+			],
+			[
+				"State",
+				"StateMM"
+			],
+			[
+				"track",
+				"trackMarker"
+			],
+			[
+				"cru",
+				"crumbCount"
+			],
+			[
+				"w",
+				"window"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"Roboto",
+				"Roboto-Light"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"setting",
+				"settingsContent"
+			],
+			[
+				"main",
+				"mainContent"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"intro",
+				"introText3"
+			],
+			[
+				"chec",
+				"checkText3"
+			],
+			[
+				"ta",
+				"taInfo"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"styl",
+				"style"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"wd",
+				"width"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"other",
+				"otherRateVar"
+			],
+			[
+				"oth",
+				"otherAm"
+			],
+			[
+				"o",
+				"otherAm"
+			],
+			[
+				"medT",
+				"medTax"
+			],
+			[
+				"med",
+				"medTax"
+			],
+			[
+				"ss",
+				"ssTaxVar"
+			],
+			[
+				"loca",
+				"localTax"
+			],
+			[
+				"retire",
+				"retireDec"
+			],
+			[
+				"fed",
+				"fedTaxRate"
+			],
+			[
+				"setti",
+				"settingsButton"
+			],
+			[
+				"last",
+				"last_price"
+			],
+			[
+				"desc",
+				"descForm"
+			],
+			[
+				"of",
+				"offset"
+			],
+			[
+				"acc",
+				"accuracy"
+			],
+			[
+				"cou",
+				"countyMMForm"
+			],
+			[
+				"urge",
+				"urgency"
+			],
+			[
+				"offset",
+				"offsetForm"
+			],
+			[
+				"stateMM",
+				"stateMMForm"
+			],
+			[
+				"countyMM",
+				"countyMMForm"
+			],
+			[
+				"County",
+				"County"
+			],
+			[
+				"inde",
+				"index"
+			],
+			[
+				"urg",
+				"urgencySelect"
+			],
+			[
+				"mi",
+				"minutes"
+			],
+			[
+				"butto",
+				"buttonIndex"
+			],
+			[
+				"to",
+				"today"
+			],
+			[
+				"recor",
+				"recordHTML"
+			],
+			[
+				"remove",
+				"removeItem"
+			],
+			[
+				"con",
+				"confirm"
+			],
+			[
+				"camera",
+				"cameraOptions"
+			],
+			[
+				"photo",
+				"photosOn"
+			],
+			[
+				"delet",
+				"deleteOff"
+			],
+			[
+				"delteon",
+				"deleteOnExport"
+			],
+			[
+				"del",
+				"deleteOnExport"
+			],
+			[
+				"delete",
+				"deleteOnExport"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"trash",
+				"trashIcon"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"star",
+				"startNumber"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 11160,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 307,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.css",
+			"settings":
+			{
+				"buffer_size": 1457,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"quick",
+				"Git: Quick Commit"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"git:add",
+				"Git: Add..."
+			],
+			[
+				"qu",
+				"Git: Quick Commit"
+			],
+			[
+				"Git:push",
+				"Git: Push"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"Git:",
+				"Git: Push"
+			],
+			[
+				"Git",
+				"Git: Commit"
+			],
+			[
+				"Git:pu",
+				"Git: Push"
+			],
+			[
+				"git:",
+				"Git: Status"
+			],
+			[
+				"git ",
+				"Git: Commit history"
+			],
+			[
+				"git",
+				"Git: Commit"
+			]
+		],
+		"width": 498.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/test/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/C/Users/test/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D5/FEB 2014/2-4/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/D3/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/D5/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/D4/MAR 2014/index.html",
+		"/C/Users/test/Dropbox/Work/Mike and John Temp/HTML/D2/MAR 2014/Slider/index.html",
+		"/C/Users/test/Dropbox/Work/Mike and John Temp/HTML/D3/MAR 2014/Slider/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/D4/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/D4/MAR 2014/Slider/routesInfo.js",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/D4/MAR 2014/Slider/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/D3/MAR 2014/Slider/routeInfos.js",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/D2/MAR 2014/Slider/routesInfo.js",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/D4/MAR 2014/3-25/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/D2/MAR 2014/Slider/routeInfo.js",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/D2/MAR 2014/Slider/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/sliders.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/D2/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/D1/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/D1/MAR 2014/Slider/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/D1/MAR 2014/Slider/routeInfos.js",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/D3/MAR 2014/Slider/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D1/FEB 2014/2-4/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/sliders.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D3/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D3/MAR 2014/3-12/routeInfos.js",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D3/MAR 2014/3-12/array.js",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D3/MAR 2014/3-12/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/DevTest/D1/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/OLD.js",
+		"/C/Users/test/Dropbox/Work/Mike and John Temp/routeInfos.js",
+		"/C/Users/test/Dropbox/Work/Mike and John Temp/array.js",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D3/MAR 2014/3-25/index.html",
+		"/C/Users/test/Desktop/27Oct2013/www/index.html",
+		"/C/Users/test/Desktop/27Oct2013/www/scripts.js",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D2/MAR 2014/3-12/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D3/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D1/JAN 2014/1-5/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/css/ionic.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D1/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/ODOT BWT.sublime-project",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/config.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/AndroidManifest.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/scaling.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/Dev/scaling.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/Dev/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/Dev/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/Dev/config.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/Dev/AndroidManifest.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/Dev/js/index.js",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT BWT App/Dev/ODOT BWT.sublime-project",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT Flipbook App/Dev/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT Flipbook App/Dev/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D2/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT Flipbook App/Dev/js/index.js",
+		"/C/Users/test/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/test/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/main.html",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/index.html",
+		"/C/Users/test/Documents/GitHub/PandaTracker/index.html",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/config.xml",
+		"/C/Users/test/Documents/GitHub/PandaTracker/analytics.js",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/js/index.js",
+		"/C/Users/test/Documents/GitHub/PandaTracker/config.xml",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/AndroidManifest.xml",
+		"/C/Users/test/Documents/GitHub/PandaTracker/AndroidManifest.xml",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/js/GALocalStorage.js",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/ga.js",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D12/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D11/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D10/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D9/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D8/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D7/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D6/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D5/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D4/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/odot-test/D2/MAR 2014/3-12/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/odot-test/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/odot-test/D4/MAR 2014/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D2/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/2014-2015 Redesign.txt",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D4/MAR 2014/3-8/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D4/styles.css",
+		"/C/Users/test/Documents/GitHub/PandaTracker/js/index.js",
+		"/C/Users/test/Documents/GitHub/Personal_SIte/index.html",
+		"/C/Users/test/Documents/GitHub/WaffleTrackerWebsite/index.html",
+		"/C/Users/test/Documents/GitHub/PandaTrackerWebsite/index.html",
+		"/C/Users/test/Documents/GitHub/PandaTrackerWebsite/styles.css",
+		"/C/Users/test/Documents/GitHub/WaffleTrackerWebsite/styles.css",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/css/ionic.css",
+		"/C/Users/test/Documents/GitHub/Personal_SIte/index.js",
+		"/C/Users/test/Documents/GitHub/Personal_SIte/styles.css",
+		"/C/Users/test/Documents/GitHub/Personal_SIte/css/ionicfonts.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D3/MAR 2014/3-21/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D12/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D11/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D10/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D9/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D8/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D7/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D6/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D1/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D5/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D3/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D2/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D2/MAR 2014/3-12/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D6/MAR 2014/D6.pdf",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D1/index.html",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D2/MAR 2014/3-13/index.html",
+		"/C/Users/test/Documents/GitHub/WaffleTracker/styles.css",
+		"/C/Users/test/Documents/GitHub/PandaTracker/styles.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/snow&ice/routes/Dev/odot-test/D2/MAR 2014/3-12/jquery.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT Flipbook App/Dev/AndroidManifest.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT Flipbook App/Dev/config.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT Flipbook App/Dev/scaling.css",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT Location Finder App/1.4 Dev (Active)/AndroidManifest.xml",
+		"/C/Users/test/Dropbox (Traffic)/Traffic/Mobile Apps/ODOT Location Finder App/1.4 Dev (Active)/config.xml",
+		"/C/Users/test/Documents/GitHub/PandaTrackerWebsite/js/index.js",
+		"/C/Users/test/Documents/GitHub/WaffleTrackerWebsite/js/index.js",
+		"/C/Users/test/Documents/GitHub/CalcPaycheck/styles.css",
+		"/C/Users/test/Documents/GitHub/CalcPaycheck/js/index.js",
+		"/C/Users/test/Documents/GitHub/CalcPaycheck/index.html",
+		"/C/Users/test/Desktop/CalcPaycheck/background.js"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"br",
+			"SSUMSR00480",
+			"SSUMIR00277",
+			"SSUMIR00271",
+			"SSUMUS00224",
+			"SSUMSR00093",
+			"SSUMSR00091",
+			"SSUMIR00077",
+			"SSUMSR00076",
+			"0",
+			"SSUMSR00021",
+			"SSUMSR00018",
+			"SSUMSR00008",
+			"STRUUS00422",
+			"STRUIR00080",
+			"STRUSR00011",
+			"STRUSR00005",
+			"SSTAIR00077",
+			"SSTAUS00062",
+			"0",
+			"SSTAUS00030",
+			"SPORIR00480",
+			"SPORSR00224",
+			"SPORIR00076",
+			"0",
+			"SPORSR00043",
+			"SPORSR00014",
+			"SMAHIR00076",
+			"SMAHIR00680",
+			"SMAHIR00080",
+			"SMAHSR00011",
+			"0",
+			"SATBIR00090",
+			"span",
+			"failed",
+			"header",
+			"county-wrap",
+			"Seneca",
+			"Sandusky",
+			"Ottawa",
+			"Lucas",
+			"Henry",
+			"Fulton",
+			"SOTTSR00163",
+			"SLUCSR00184",
+			"SHENSR00108",
+			"\"",
+			"SRICIR00071",
+			"SRICUS00042",
+			"SRICUS00030",
+			"SMEDIR00271",
+			"SMEDIR00071",
+			"SMEDUS00042",
+			"SMEDSR00018",
+			"SMEDSR00003",
+			"SLORSR00010",
+			"SLORSR00002",
+			"0",
+			"SLORIR00090",
+			"SHURUS00250",
+			"SHURUS00224",
+			"2",
+			"SHURSR00020",
+			"SHURSR00018",
+			"SERIUS00250",
+			"SERIUS00006",
+			"SERISR00004",
+			"SERISR00002",
+			"SCRAUS00030",
+			"SASDUS00250",
+			"SASDUS00224",
+			"SASDUS00042",
+			"SASDUS00030",
+			"0",
+			"SASDIR00071",
+			"Wayne",
+			"Richland",
+			"Medina",
+			"Lorain",
+			"Huron",
+			"Erie",
+			"Crawford",
+			"Ashland",
+			"WAYNE",
+			"RICHLAND",
+			"MEDINA",
+			"LORAIN",
+			"HURON",
+			"ERIE",
+			"CRAWFORD",
+			"ASHLAND",
+			"absolute",
+			"relative",
+			"absolute",
+			"535",
+			"44575",
+			"Recovery Time:",
+			"></",
+			"index",
+			"SVANSR00118",
+			"SPUTSR00015",
+			"SPAUUS00030",
+			"SHARSR00309",
+			"SHARSR00117",
+			"235",
+			"Wayne",
+			"Richland",
+			"Medina",
+			"Lorain",
+			"Huron",
+			"Erie",
+			"Crawford",
+			"Ashland",
+			"SWAYUS00250",
+			"SWYAUS00030",
+			"A",
+			"SWAYSR00094",
+			"SWYAUS00023",
+			"SWAYIR00071",
+			"SWYASR00015",
+			"SVANUS00224",
+			"SVANUS00127",
+			"SRICIR00071",
+			"SVANSR00118",
+			"SRICUS00042",
+			"SVANUS00033",
+			"SRICUS00030",
+			"SVANUS00030"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4711,
+								4711
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/SalmonOnIce (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 582.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/SalmonOnIce (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1457,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								787,
+								787
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/SalmonOnIce (SL).tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 210.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.7515625,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 92.0
+	},
+	"project": "personal website 2.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"12",
+				"C:\\Users\\test\\Dropbox (Traffic)\\Traffic\\snow&ice\\routes\\Dev\\odot-test\\D2\\MAR 2014\\3-12\\index.html"
+			],
+			[
+				"",
+				"C:\\Users\\test\\Dropbox (Traffic)\\Traffic\\snow&ice\\routes\\Dev\\odot-test\\D2\\MAR 2014\\index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\test\\Desktop\\mikekreiser\\personal site 2.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
