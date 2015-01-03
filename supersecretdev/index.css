@@ -26,10 +26,16 @@ img {
     height: 50%;
     display: inline-block;
 }
+.belowImage {
+    padding-top:10px;
+}
 .container {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+.icon{
+    font-size:200%;
 }
 .normalContent{
     font-size: 160%;
