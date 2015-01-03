@@ -28,7 +28,7 @@ img{
     margin-right: auto;
 }
 .normalContent div{
-    font-size: 105%;
+    font-size: 135%;
 }
 .pictext{
     display: inline-block;
@@ -39,11 +39,11 @@ img{
     position: relative;
 }
 .superHeader{
-	font-size: 350%;
+	font-size: 400%;
 }
 #frontpageName {
     color: #FFF;
-    font-size: 400%;
+    font-size: 450%;
     text-align: center;
 }
 #second {
@@ -51,21 +51,21 @@ img{
 }
 #second .header {
     color: #777;
-    font-size: 275%;
+    font-size: 325%;
 }
 #third{
 	color:#DDD;
 }
 #third .header{
 	color: #999;
-    font-size: 275%;
+    font-size: 325%;
 }
 #fourth {
     color: #AAA;
 }
 #fourth .header {
     color: #777;
-    font-size: 275%;
+    font-size: 325%;
 }
 #fourth .superHeader{
 	color: #777;
