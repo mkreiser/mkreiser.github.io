@@ -27,7 +27,7 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-.normalContent div {
+.normalContent{
     font-size: 150%;
 }
 .pictext {
