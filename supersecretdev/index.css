@@ -6,19 +6,19 @@
     font-family: 'Roboto-Regular';
     src: url('fonts/RobotoTTF/Roboto-Regular.ttf');
 }
-a{
+a {
     text-decoration: none;
-    color:inherit;
+    color: inherit;
 }
-a:visited{
+a:visited {
     text-decoration: none;
     color: inherit;
 }
 body {
-    cursor:default;
+    cursor: default;
     font-family: 'Roboto-Light';
 }
-img{
+img {
     height: 50%;
     display: inline-block;
 }
@@ -27,19 +27,19 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-.normalContent div{
-    font-size: 135%;
+.normalContent div {
+    font-size: 150%;
 }
-.pictext{
+.pictext {
     display: inline-block;
     position: absolute;
-    padding-left:20px;
-;}
-.rel{
+    padding-left: 20px;
+}
+.rel {
     position: relative;
 }
-.superHeader{
-	font-size: 400%;
+.superHeader {
+    font-size: 400%;
 }
 #frontpageName {
     color: #FFF;
@@ -53,11 +53,11 @@ img{
     color: #777;
     font-size: 325%;
 }
-#third{
-	color:#DDD;
+#third {
+    color: #DDD;
 }
-#third .header{
-	color: #999;
+#third .header {
+    color: #999;
     font-size: 325%;
 }
 #fourth {
@@ -67,29 +67,29 @@ img{
     color: #777;
     font-size: 325%;
 }
-#fourth .superHeader{
-	color: #777;
+#fourth .superHeader {
+    color: #777;
 }
-#fourth div{
+#fourth div {
     padding: 4px 0 4px 0;
 }
-#flipbook{
+#flipbook {
     background-color: #f7921d;
     color: #fff;
 }
-#bwt{
+#bwt {
     background-color: #159B6A;
     color: #fff;
 }
-#waffletracker{
+#waffletracker {
     background-color: #F7931A;
     color: #FFF;
 }
-#pandatracker{
+#pandatracker {
     background-color: #00CBFF;
-    color:#FFF;
+    color: #FFF;
 }
-#humorways{
-    background-color: rgb(13,33,65);
+#humorways {
+    background-color: rgb(13, 33, 65);
     color: #FFF;
 }
