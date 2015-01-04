@@ -59,10 +59,10 @@ img {
     text-align: center;
 }
 #second {
-    color: #AAA;
+    color: #777;
 }
 #second .header {
-    color: #777;
+    color: #444;
     font-size: 325%;
 }
 #third {
@@ -110,7 +110,7 @@ img {
     color:#FFF;
 }
 #snowice {
-    background-color:#000;
+    background-color:#444;
     color:#FFF;
 }
 #snowpic{
