@@ -117,3 +117,6 @@ img {
     width: 50%;
     height: auto;
 }
+#snowdiv {
+    min-height:50%;
+}
