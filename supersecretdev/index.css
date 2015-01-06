@@ -17,6 +17,7 @@ a:visited {
 body {
     cursor: default;
     font-family: 'Roboto-Light';
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 p{
     margin-top:0;
