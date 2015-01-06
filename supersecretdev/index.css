@@ -26,7 +26,6 @@ p{
 img {
     height: 50%;
     width:auto;
-    display: inline-block;
 }
 .belowImage {
     padding-top:10px;
@@ -73,17 +72,20 @@ img {
     color: #999;
     font-size: 325%;
 }
-#fourth {
+#timeline {
+    color: #FFF;
+}
+#contactPage {
     color: #AAA;
 }
-#fourth .header {
+#contactPage .header {
     color: #777;
     font-size: 325%;
 }
-#fourth .superHeader {
+#contactPage .superHeader {
     color: #777;
 }
-#fourth div {
+#contactPage div {
     padding: 4px 0 4px 0;
 }
 #flipbook {

@@ -4,7 +4,7 @@ $(document).ready(function() {
     	scrollingSpeed: 500,
     	loopHorizontal: false,
     	sectionsColor: ['#00A8C6', '#FFF', '#000', '#FFF'],
-    	anchors: ['frontpage','intro','dev','4'],
+    	anchors: ['frontpage','intro','dev','contact'],
     	verticalCentered: true,
     	slidesNavigation: true
     });
