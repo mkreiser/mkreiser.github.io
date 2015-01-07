@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Roboto-Light';
-    src: url('fonts/RobotoTTF/Roboto-Light.ttf');
+    src: url('../fonts/RobotoTTF/Roboto-Light.ttf');
 }
 @font-face {
     font-family: 'Roboto-Regular';
-    src: url('fonts/RobotoTTF/Roboto-Regular.ttf');
+    src: url('../fonts/RobotoTTF/Roboto-Regular.ttf');
 }
 a {
     text-decoration: none;

@@ -1,119 +1,262 @@
 <html>
-	<head>
-		<title>Mike Kreiser</title>
-		<meta name="author" content="Mike Kreiser"/>
-		<meta name="keywords" content="Mike, Kreiser, illinois, university, computer, science, mobile, apps, web, design"/>
-		<meta name="description" content="Website of Mike Kreiser">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<head>
+    <title>mike kreiser</title>
 
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		<link rel="stylesheet" type="text/css" href="css/ionicfonts.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="css/ionicons.css" />
 
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 
-		  ga('create', 'UA-53247724-1', 'auto');
-		  ga('require', 'displayfeatures');
-		  ga('send', 'pageview');
+</head>
 
-		</script>
+<body>
+    <div id="fullpage">
+        <div class="section">
+            <div id="frontpageName">mike kreiser | software dev</div>
+        </div>
+        <div class="section" id="second">
+            <div class="container">
+                <div class="header">about</div>
+                <div class="normalContent">
+                    <div>software developer studying computer science with a minor in economics at the university of illinois at urbana-champaign. developed websites as well as mobile applications on top of cordova. avid developer, fan of illinois and ohio sports, fantasy football champion, and a faithful netflix subscriber.</div>
+                </div>
+                <br>
+                <div class="header">experience</div>
+                <div class="normalContent">
+                    <div>consultant - ohio department of transportation (nov 2014 - present)</div>
+                    <div>consultant - macadam design (oct 2014 - present)</div>
+                    <div>intern - ohio department of transportation (june 2014 - aug 2014)</div>
+                </div>
+                <br>
+                <div class="header">languages</div>
+                <div class="normalContent">
+                    <div>html &#8226; css &#8226; javascript &#8226; java &#8226; c++ &#8226; c# &#8226; vba</div>
+                </div>
+                <br>
+                <div class="header">frameworks/libraries/etc</div>
+                <div class="normalContent">
+                    <div>cordova &#8226; jquery &#8226; ionic &#8226; ionicons &#8226; git &#8226; svn &#8226; photoshop &#8226; sublime text </div>
+                </div>
+            </div>
+        </div>
 
-	</head>
-	<body>
-	<!--onclick="window.location.href=''"-->
+        <div class="section" id="portfolio">
+            <div class="slide" id="snowice">
+                <div class="container">
+                    <div class="superHeader">portfolio/snow &amp; ice reports</div>
+                    <div class="normalContent">
+                        <div>november 2014 - ohio department of transportation</div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="normalContent rel">
+                        <img id="snowpic" src="img/snowice.png">
+                        <div class="pictext">
+                            <p>report system for snow &amp; ice performance grading system.</p>
+                            <p>completely rebuilt UI across the site.</p>
+                            <p>eliminated pdf reports and centralized district resource information.</p>
+                            <p>month-long reports (shown) display events based on time-dependent slider.</p>
+                            <p>report page updates event info and active counties based on slider time.</p>
+                            <p>two universal algorithms power every report page, regardless of month or district.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" id="flipbook">
+                <div class="container">
+                    <div class="superHeader">portfolio/work zone pocket guide</div>
+                    <div class="normalContent">
+                        <div>august 2014 - ohio department of transportation</div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="normalContent rel">
+                        <img src="img/flipbook.png">
+                        <div class="pictext">
+                            <p>guide for construction workers outlining requirements for work zone setups.</p>
+                            <p>designed for speed, allowing workers to quickly access information.</p>
+                            <p>search and filter functionality allows users to discover relevant pages with minimal input.</p>
+                            <p>replaces paper pocketbooks, greatly reducing costs and environmental impact.</p>
+                        </div>
+                    </div>
+                    <div class="normalContent belowImage">
+                        <a href="https://play.google.com/store/apps/details?id=com.odottraffic.odotwzpocketguide"><i class="icon ion-social-android"></i></a>
+                        <a href="https://itunes.apple.com/us/app/odot-work-zone-pocket-guide/id909406255?mt=8"><i class="icon ion-social-apple"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" id="bwt">
+                <div class="container">
+                    <div class="superHeader">portfolio/bi-weekly tour</div>
+                    <div class="normalContent">
+                        <div>august 2014 - ohio department of transportation</div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="normalContent rel">
+                        <img src="img/bwt.png">
+                        <div class="pictext">
+                            <p>geolocation app for performing road inspections and other maintenance tours.</p>
+                            <p>gps live updates user's position and road information.</p>
+                            <p>app drops "breadcrumbs", letting users know where they have been.</p>
+                            <p>users can save locations with deficiencies, with the ability to add photos and descriptions.</p>
+                            <p>all data is exportable.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" id="pandatracker">
+                <div class="container">
+                    <div class="superHeader">portfolio/pandatracker</div>
+                    <div class="normalContent">
+                        <div>july 2014 - personal</div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="normalContent rel">
+                        <img src="img/panda.png">
+                        <div class="pictext">
+                            <p>app to track dogecoin mining stats on pandapool.</p>
+                            <p>tracks performance and payouts for both available algorithms.</p>
+                            <p>converts wallet balance to usd with live market prices.</p>
+                        </div>
+                    </div>
+                    <div class="normalContent belowImage">
+                        <a href="https://play.google.com/store/apps/details?id=com.mikekreiser.pandatracker"><i class="icon ion-social-android"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" id="waffletracker">
+                <div class="container">
+                    <div class="superHeader">portfolio/waffletracker</div>
+                    <div class="normalContent">
+                        <div>july 2014 - personal</div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="normalContent rel">
+                        <img src="img/waffle.png">
+                        <div class="pictext">
+                            <p>app to track bitcoin mining stats on wafflepool.</p>
+                            <p>tracks performance and payout stats for all available algorithms.</p>
+                            <p>converts wallet balance to usd with live market prices.</p>
 
-		<div id="header">mike kreiser | software dev</div>
+                        </div>
+                    </div>
+                    <div class="normalContent belowImage">
+                        <a href="https://play.google.com/store/apps/details?id=com.mikekreiser.waffletracker"><i class="icon ion-social-android"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" id="humorways">
+                <div class="container">
+                    <div class="superHeader">portfolio/501 ways to use humor</div>
+                    <div class="normalContent">
+                        <div>october 2014 - macadam design</div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="normalContent rel">
+                        <img src="img/501ways.png">
+                        <div class="pictext">
+                            <p>app for the book "Humor That Works: 501 Ways to Use Humor".</p>
+                            <p>search and filter functionality based on user's time and resources available.</p>
+                            <p>updated UI that increases readability and navigability.</p>
+                        </div>
+                    </div>
+                    <div class="normalContent belowImage">
+                        <a href="https://play.google.com/store/apps/details?id=com.humorthatworks.app501ways"><i class="icon ion-social-android"></i></a>
+                        <a href="https://itunes.apple.com/us/app/501-ways-to-use-humor/id736837043"><i class="icon ion-social-apple"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" id="paycheck">
+                <div class="container">
+                    <div class="superHeader">portfolio/calculate my paycheck</div>
+                    <div class="normalContent">
+                        <div>july 2014 - personal</div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="normalContent rel">
+                        <img src="img/calc.png">
+                        <div class="pictext">
+                            <p>app to calculate paychecks.</p>
+                            <p>calculates pay and optional deductions.</p>
+                            <p>built for personal use, but released publicly.</p>
+                        </div>
+                    </div>
+                    <div class="normalContent belowImage">
+                        <a href="https://play.google.com/store/apps/details?id=com.mikekreiser.CalculateMyPayCheck"><i class="icon ion-social-android"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="work">
+            <div class="slide">
+                <div class="container">
+                    <div class="superHeader">work/ohio department of transportation</div>
+                        <div class="normalContent">
+                            <div>june 2014 - august 2014 (intern)</div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="normalContent">
+                            <p>&#8226; built bi-weekly tour app, digitizing road inspections and maintenance tours.</p>
+                            <p>&#8226; built work zone pocket guide, eliminating thousands of dollars in paper pocketbooks.</p>
+                            <p>&#8226; updated location finder for iOS UI to increase readability and meet new standards.</p>
+                            <p>&#8226; built location finder for android, matching the updated iOS app.</p>
+                            <p>&#8226; began design and optimization on snow &amp; ice report system.</p>
+                        </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="container">
+                    <div class="superHeader">work/ohio department of transportation</div>
+                        <div class="normalContent">
+                            <div>november 2014 - present (consultant)</div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="normalContent">
+                            <p>&#8226; finished development on snow &amp; ice report system, increasing functionality and efficiency.</p>
+                            <p>&#8226; performed maintenance updates on mobile apps previously developed.</p>
+                        </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="container">
+                    <div class="superHeader">work/macadam design</div>
+                        <div class="normalContent">
+                            <div>oct 2014 - present (consultant)</div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="normalContent">
+                            <p>&#8226; worked on updates to client code, specifically websites as well as mobile apps built on cordova.</p>
+                            <p>&#8226; updated "501 ways" app to reflect modern style guidelines, as well as increase readability and navigability.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="contactPage">
+            <div class="container">
+                <div class="superHeader">contact</div>
+                <div class="normalContent">
+                    <div>champaign, il &#8226; columbus, oh &#8226; chicago, il</div>
+                    <div>
+                        <a href="mailto:mike@mikekreiser.me"><i class="icon ion-android-mail"></i></a>
+                        <a href="http://github.com/mkreiser"><i class="icon ion-social-github"></i></a>
+                        <a href="http://www.linkedin.com/in/mkreiser"><i class="icon ion-social-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 
-		<div id="about"><div>I am a software developer currently studying at the University of Illinois at Urbana-Champaign.</div></div>
-
-		<div id="projects">
-			<div id="projects2">
-				<div class="card">
-					<div class="mid">ODOT Bi-Weekly Tour</div>
-					<div class="light pad">Bi-Weekly Tour (BWT) app is an internal ODOT mobile app for iOS. The app was built to streamline road inspections, which used to use paper forms. The app allows workers to quickly save information on locations with deficiencies, including GPS coordinates, labels, descriptions, and photos. The saved data can be exported in a compact manner that is easy for managers to view.</div>
-					<div class="bottom"><i class="icon ion-social-apple" onclick="alert('This app is available only for ODOT employees. If you wish to view the app, contact me at mkreise2@illinois.edu.')"></i></div>
-				</div>
-				<div class="card">
-					<div class="mid">WaffleTracker</div>
-					<div class="light pad">Waffletracker is an Android app I developed that allows Wafflepool users to track their miners' hashrate and payout statistics. Users can also get their Bitcoin address balance, in both Bitcoin and US dollars. The app is also available as a webpage.</div>
-					<div class="bottom"><a href="https://play.google.com/store/apps/details?id=com.mikekreiser.waffletracker"><i class="icon ion-social-android"></i></a><a href="/WaffleTracker/"><i class="icon ion-laptop"></i></a><a href="https://github.com/mkreiser/WaffleTracker"><i class="icon ion-social-github"></i></a></div>
-				</div>
-				<div class="card">
-					<div class="mid">ODOT Location Finder</div>
-					<div class="light pad">Location Finder is a mobile app designed for ODOT roadway technicians and employees available for iOS and Android. The app uses GPS to locate users and return location information, such as mile markers and offsets, that is useful for ODOT reports.</div>
-					<div class="bottom"><a href="https://play.google.com/store/apps/details?id=com.odottraffic.odotlocationfinder"><i class="icon ion-social-android"></i></a><a href="https://itunes.apple.com/us/app/odot-location-finder/id703100312?mt=8"><i class="icon ion-social-apple"></i></a></div>
-				</div>
-				<div class="card">
-					<div class="mid">PandaTracker</div>
-					<div class="light pad">Pandatracker is an Android app I developed that allows Pandapool users to track their miners' hashrate, as well as their payout statistics by mining round. Additionally, users can get their dogecoin or pandacoin address balance, in both dogecoin/pandacoin and US dollars. The app is also available as a webpage.</div>
-					<div class="bottom"><a href="https://play.google.com/store/apps/details?id=com.mikekreiser.pandatracker"><i class="icon ion-social-android"></i></a><a href="/PandaTracker/"><i class="icon ion-laptop"></i></a><a href="https://github.com/mkreiser/PandaTracker"><i class="icon ion-social-github"></i></a></div>
-				</div>
-				<div class="card">
-					<div class="mid">ODOT WZ Traffic Control</div>
-					<div class="light pad">WZ Traffic Control is a mobile app version of ODOT's "Guidelines for Traffic Control in Work Zones" pocketbook. Users can search through the book's contents and search for work zone information based on work type for the home screen. This app eliminates the need for costly paper pocketbooks.</div>
-					<div class="bottom"><i class="icon ion-social-android" onclick="alert('In dev. Will be available soon.')"></i><i class="icon ion-social-apple" onclick="alert('In dev. Will be available soon.')"></i></div>
-				</div>
-				<div class="card">
-					<div class="mid">Calculate My Paycheck</div>
-					<div class="light pad">This app calculates paychecks based on hourly wage and can deduct taxes and retirement based on user settings.</div>
-					<div class="bottom"><a href="https://play.google.com/store/apps/details?id=com.mikekreiser.CalculateMyPayCheck"><i class="icon ion-social-android"></i></a><a href="https://github.com/mkreiser/CalcPaycheck"><i class="icon ion-social-github"></i></a></div>
-				</div>
-				<div class="card">
-					<div class="mid">ODOT Snow &amp; Ice</div>
-					<div class="light pad">ODOT's Snow &amp; Ice internal report website is a patent pending system that utilizes Excel, VBA, and HTML/CSS/JS to generate report web pages on snow events. I optimized web page performance and redesigned the website to simplify the interface and eliminate the need for .pdf reports.</div>
-					<div class="bottom"><i class="icon ion-laptop" onclick="alert('ODOT Snow and Ice is an internal report system available only on the ODOT network. To see example code, contact me at mkreise2@illinois.edu.')"></i></div>
-				</div>
-			</div>
-		</div>
-
-		<div id="ex">
-			<div id="ex2">
-				<div class="card3" id="experience">
-					<div class="large">Intern</div>
-					<div style="font-size:20pt;">Ohio Department of Transportation</div>
-					<div style="font-size:16pt;">June 2014 - August 2014</div>
-					<div class="light pad2">&bull; Created ODOT Bi-Weekly Tour App to streamline formerly paper-based road inspections.</div>
-					<div class="light pad2">&bull; Created ODOT WZ Traffic Control App, digitizing one of ODOT's guidebooks for workers.</div>
-					<div class="light pad2">&bull; Created ODOT Location Finder for Android, implementing the same functionality available on the iOS version.</div>
-					<div class="light pad2">&bull; Updated ODOT Location Finder for iOS by creating a new interface and adding additional location information.</div>
-					<div class="light pad2">&bull; Redesigned and optimized the ODOT Snow &amp; Ice reports website, eliminating the need for .pdf reports.</div>
-					<div class="light pad2">&bull; Generated Work Zone Mobility reports using Excel and VBA.</div>
-
-				</div>
-			</div>
-		</div>
-
-		<div id="rave">
-			<div id="reviews">
-				<div class="card2"><span style="font-style:italic;"><i class="icon ion-ios7-star" style="font-size:24px;"></i><i class="icon ion-ios7-star" style="font-size:24px;"></i><i class="icon ion-ios7-star" style="font-size:24px;"></i><i class="icon ion-ios7-star" style="font-size:24px;"></i><i class="icon ion-ios7-star" style="font-size:24px;"></i>"I love it. No ads, stats update in a timely fashion, and it looks good. Edit: great new icon, and the new UI is amazing too!"</span> - WaffleTracker Android User</div>
-
-				<div class="card2"><span style="font-style:italic;"><i class="icon ion-ios7-star" style="font-size:24px;"></i><i class="icon ion-ios7-star" style="font-size:24px;"></i><i class="icon ion-ios7-star" style="font-size:24px;"></i><i class="icon ion-ios7-star" style="font-size:24px;"></i><i class="icon ion-ios7-star" style="font-size:24px;"></i>"Invaluable information for people in the field."</span> - ODOT Work Zone Pocket Guide User</div>
-
-				<div class="card2"><span style="font-style:italic;"><i class="icon ion-ios7-star" style="font-size:24px;"></i><i class="icon ion-ios7-star" style="font-size:24px;"></i><i class="icon ion-ios7-star" style="font-size:24px;"></i><i class="icon ion-ios7-star" style="font-size:24px;"></i><i class="icon ion-ios7-star" style="font-size:24px;"></i>"Works great. Does exactly what it's supposed to do, thank you!"</span> - PandaTracker User</div>
-
-				<div class="card2"><span style="font-style:italic;"><i class="icon ion-ios7-star" style="font-size:24px;"></i><i class="icon ion-ios7-star" style="font-size:24px;"></i><i class="icon ion-ios7-star" style="font-size:24px;"></i><i class="icon ion-ios7-star" style="font-size:24px;"></i><i class="icon ion-ios7-star" style="font-size:24px;"></i>"The best app ever created. This app is awesome."</span> - ODOT Location Finder User</div>
-
-				<div class="card2"><span style="font-style:italic;">"Mm, love it. I can leave it onscreen and just glance across it for stats. The android version is fantastic aswell."</span> - WaffleTracker User via reddit</div>
-
-				<div class="card2"><span style="font-style:italic;">"Been using this since you first posted it, it's really nice, clean, and fast. Saves a lot of time when I want to check in on my miners without remoting in."</span> - PandaTracker User via reddit</div>
-
-				<div class="card2"><span style="font-style:italic;">"Very cool app, thank you soo much!"</span> - WaffleTracker User via reddit</div>
-
-				<div class="card2"><span style="font-style:italic;">"Awesome thanks so much!"</span> - PandaTracker User via reddit</div> 
-			</div>
-		</div>
-
-		<div id="contact">
-			<a href="https://play.google.com/store/apps/developer?id=Mike+Kreiser"><i class="icon ion-social-android" id="logo"></i></a>	
-			<a href="mailto:mkreise2@illinois.edu"><i class="icon ion-ios7-email" id="logo"></i></a>	
-			<a href="https://github.com/mkreiser"><i class="icon ion-social-github" id="logo"></i></a>	
-			<a href="https://www.linkedin.com/in/mkreiser"><i class="icon ion-social-linkedin" id="logo"></i></a>
-		</div>
-	
-	</body>
 </html>
