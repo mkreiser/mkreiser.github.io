@@ -1,0 +1,25 @@
+<h1>git</h1>
+<h2>Commands</h2>
+<div><code>git add -p</code> - add changes individually</div>
+<div><code>git commit -m "message"</code> - commit with message</div>
+<div><code>git rebase -i HEAD~3</code> - rebase HEAD interactively with the last 3 commits</div>
+<div><code>git push -u origin localbranch:remotebranch</code> - push remote branch</div>
+<div><code>git log -3</code> - view last 3 commits</div>
+<div><code>git branch -d (local branch)</code> - delete local branch</div>
+<br>
+<h2>Merging Workflow</h2>
+<div>Note: This is concentrated to web dev, although the general flow applies to all merges.</div>
+<div>1.) Check changes in Chrome.</div>
+<div>2.) Check changes in Firefox.</div>
+<div>3.) Check changes in Safari.</div>
+<div>4.) Run tests.</div>
+<div>5.) <code>git co master</code></div>
+<div>6.) <code>git pull</code></div>
+<div>7.) <code>git co (branch)</code></div>
+<div>8.) <code>git rebase master</code></div>
+<div>9.) <code>git mergetool</code> if conflicts</div>
+<div>10.) Run tests if conflicts</div>
+<div>11.) <code>git push --force</code></div>
+<div>12.) Check for code bubbles/issues</div>
+<div>13.) Merge branch</div>
+<div>14.) Delete branch</div>

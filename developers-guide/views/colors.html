@@ -1,0 +1,24 @@
+<h1>Colors</h1>
+<h2>Color Schemes</h2>
+<br>
+<md-content layout-padding="">
+  <md-grid-list md-cols="5" md-row-height="1:1" md-gutter="10px" md-gutter-gt-sm="8px">
+    <md-grid-tile ng-repeat="color in colorSchemes" ng-style="{ 'background-color': color }">
+      <md-grid-tile-footer>
+        <h3>{{color}}</h3>
+      </md-grid-tile-footer>
+    </md-grid-tile>
+  </md-grid-list>
+</md-content>
+<br>
+<h2>Individual Colors</h2>
+<br>
+<md-content layout-padding="">
+  <md-grid-list md-cols-sm="3" md-cols-md="5" md-cols-gt-md="5" md-row-height="1:1" md-gutter="10px" md-gutter-gt-sm="8px">
+    <md-grid-tile ng-repeat="color in individualColors" ng-style="{ 'background-color': color }">
+      <md-grid-tile-footer>
+        <h3>{{color}}</h3>
+      </md-grid-tile-footer>
+    </md-grid-tile>
+  </md-grid-list>
+</md-content>
