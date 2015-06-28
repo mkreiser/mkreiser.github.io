@@ -4,21 +4,21 @@ angular.module('devGuide', ['ngMaterial', 'ngAnimate', 'ngRoute'])
   $routeProvider.when("/", {
   	templateUrl: "home.html"
   }).when("/html", {
-  	templateUrl: "/views/html.html"
+  	templateUrl: "views/html.html"
   }).when("/color", {
-  	templateUrl: "/views/colors.html"
+  	templateUrl: "views/colors.html"
   }).when("/css", {
-  	templateUrl: "/views/css.html"
+  	templateUrl: "views/css.html"
   }).when("/javascript", {
-  	templateUrl: "/views/javascript.html"
+  	templateUrl: "views/javascript.html"
   }).when("/angular", {
-  	templateUrl: "/views/angular.html"
+  	templateUrl: "views/angular.html"
   }).when("/git", {
-  	templateUrl: "/views/git.html"
+  	templateUrl: "views/git.html"
   }).when("/vim", {
-  	templateUrl: "/views/vim.html"
+  	templateUrl: "views/vim.html"
   }).when("/sublime", {
-  	templateUrl: "/views/sublime.html"
+  	templateUrl: "views/sublime.html"
   });;
 })
 
@@ -49,14 +49,14 @@ angular.module('devGuide', ['ngMaterial', 'ngAnimate', 'ngRoute'])
 .directive('menuBar', function() {
 	return {
 	  restrict: 'E',
-    templateUrl: '/views/directives/menu-bar.html'
+    templateUrl: 'views/directives/menu-bar.html'
   };
 })
 
 .directive('externalLink', function() {
 	return {
 	  restrict: 'E',
-    templateUrl: '/views/directives/external-link.html',
+    templateUrl: 'views/directives/external-link.html',
     scope: {
     	text: '@',
     	link: '@',
