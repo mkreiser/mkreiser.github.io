@@ -267,3 +267,14 @@ a:hover {
 .hover-cursor{
   cursor: pointer;
 }
+.comment {
+  margin-top: 20px;
+}
+.reply {
+  margin-left: 40px;
+}
+.reply-link {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
