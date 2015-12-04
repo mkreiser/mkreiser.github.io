@@ -273,3 +273,6 @@ md-input-container {
   position: absolute;
   max-width: 200px;
 }
+.search-box md-input-container {
+  padding-bottom: 5px;
+}
