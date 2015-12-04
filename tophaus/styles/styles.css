@@ -270,5 +270,6 @@ md-input-container {
   margin-bottom: 50px;
 }
 .search-box {
-  position: fixed;
+  position: absolute;
+  max-width: 200px;
 }
