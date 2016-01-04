@@ -4,14 +4,9 @@
 	padding: 0;
 }
 img {
-	margin-top: -19px;
-}
-img.tall-image {
-	height: 80%;
-}
-img.wide-image {
-	width: 75%;
+	max-width: 75%;
 	max-height: 80%;
+	margin-top: -19px;
 }
 .content {
 	margin: 20px;
