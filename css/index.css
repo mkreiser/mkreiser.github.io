@@ -1,128 +1,73 @@
-@font-face {
-    font-family: 'Roboto-Light';
-    src: url('../fonts/RobotoTTF/Roboto-Light.ttf');
-}
-@font-face {
-    font-family: 'Roboto-Regular';
-    src: url('../fonts/RobotoTTF/Roboto-Regular.ttf');
+* {
+	font-family: 'Roboto';
+	margin: 0;
+	padding: 0;
 }
 a {
-    text-decoration: none;
-    color: inherit;
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #000;
+	text-decoration: none;
 }
 a:visited {
-    text-decoration: none;
-    color: inherit;
-}
-body {
-    cursor: default;
-    font-family: 'Roboto-Light';
-    -webkit-font-smoothing: subpixel-antialiased;
-}
-p{
-    margin-top:0;
-    margin-bottom: .5em;
+	color: #000;
+	text-decoration: none;
 }
 img {
-    height: 50%;
-    width:auto;
+	max-width: 75%;
+	max-height: 75%;
+	display: block;
+  margin: 0 auto;
+  margin-top: -19px;
+  box-shadow: 3px 3px 20px #CCC;
 }
-.belowImage {
-    padding-top:10px;
+.slide {
+	position: relative;
 }
-.container {
-    width: 88%;
-    margin-left: auto;
-    margin-right: auto;
+.footer {
+	position: absolute;
+	bottom: 10px;
+	width: calc(100% - 40px);
+	margin-left: 20px;
+	margin-right: 20px;
 }
-.icon{
-    font-size:200%;
-    padding-right:5px;
+.left-footer {
+	float: left;
+	max-width: 50%
 }
-.normalContent{
-    font-size: 160%;
+.right-footer {
+	float: right;
+	font-weight: 500;
+	max-width: 50%;
 }
-.pictext {
-    display: inline-block;
-    position: absolute;
-    padding-left: 20px;
+.name {
+	margin: 20px;
+	font-size: 40px;
+	font-weight: 500;
 }
-.rel {
-    position: relative;
+.longText div {
+	line-height: 1.5;
 }
-.superHeader {
-    font-size: 400%;
+.titleText {
+	font-size: 24px;
+	font-weight: 500;
+	margin: 10px 0;
 }
-#frontpageName {
-    color: #FFF;
-    font-size: 450%;
-    text-align: center;
+.topTitleText {
+	margin-top: 0;
 }
-#second {
-    color: #777;
+.paddedContent {
+	margin: 20px;
 }
-#second .header {
-    color: #444;
-    font-size: 325%;
+.icon {
+	font-size: 12px;
 }
-#third {
-    color: #DDD;
+.fp-controlArrow.fp-prev {
+	border-color: transparent #000 transparent transparent;
 }
-#third .header {
-    color: #999;
-    font-size: 325%;
-}
-#work {
-    color: #FFF;
-}
-#contactPage {
-    color: #AAA;
-}
-#contactPage .header {
-    color: #777;
-    font-size: 325%;
-}
-#contactPage .superHeader {
-    color: #777;
-}
-#contactPage div {
-    padding: 4px 0 4px 0;
-}
-#flipbook {
-    background-color: #f7921d;
-    color: #fff;
-}
-#bwt {
-    background-color: #159B6A;
-    color: #fff;
-}
-#waffletracker {
-    background-color: #F7931A;
-    color: #FFF;
-}
-#pandatracker {
-    background-color: #00CBFF;
-    color: #FFF;
-}
-#humorways {
-    background-color: rgb(13, 33, 65);
-    color: #FFF;
-}
-#paycheck{
-    background-color: #009321;
-    color:#FFF;
-}
-#snowice {
-    background-color:#444;
-    color:#FFF;
-}
-#snowpic{
-    width: 50%;
-    height: auto;
-}
-#dateDiv{
-    position: absolute;
-    bottom: 0;
-    right: 10px;
-    font-size: 100%;
+
+.fp-controlArrow.fp-next {
+	border-color: transparent transparent transparent #000;
 }

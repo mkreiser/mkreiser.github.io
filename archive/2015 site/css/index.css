@@ -1,0 +1,121 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    cursor: default;
+    font-family: 'Roboto';
+    font-weight: 300;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+p{
+    margin-top:0;
+    margin-bottom: .5em;
+}
+img {
+    height: 50%;
+    width:auto;
+}
+.belowImage {
+    padding-top:10px;
+}
+.container {
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon{
+    font-size:200%;
+    padding-right:5px;
+}
+.normalContent{
+    font-size: 160%;
+}
+.pictext {
+    display: inline-block;
+    position: absolute;
+    padding-left: 20px;
+}
+.rel {
+    position: relative;
+}
+.superHeader {
+    font-size: 400%;
+}
+#frontpageName {
+    color: #FFF;
+    font-size: 45px;
+    text-align: center;
+}
+#second {
+    color: #777;
+}
+#second .header {
+    color: #444;
+    font-size: 325%;
+}
+#third {
+    color: #DDD;
+}
+#third .header {
+    color: #999;
+    font-size: 325%;
+}
+#work {
+    color: #FFF;
+}
+#contactPage {
+    color: #AAA;
+}
+#contactPage .header {
+    color: #777;
+    font-size: 325%;
+}
+#contactPage .superHeader {
+    color: #777;
+}
+#contactPage div {
+    padding: 4px 0 4px 0;
+}
+#flipbook {
+    background-color: #f7921d;
+    color: #fff;
+}
+#bwt {
+    background-color: #159B6A;
+    color: #fff;
+}
+#waffletracker {
+    background-color: #F7931A;
+    color: #FFF;
+}
+#pandatracker {
+    background-color: #00CBFF;
+    color: #FFF;
+}
+#humorways {
+    background-color: rgb(13, 33, 65);
+    color: #FFF;
+}
+#paycheck{
+    background-color: #009321;
+    color:#FFF;
+}
+#snowice {
+    background-color:#444;
+    color:#FFF;
+}
+#snowpic{
+    width: 50%;
+    height: auto;
+}
+#dateDiv{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    font-size: 100%;
+}
