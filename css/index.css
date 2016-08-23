@@ -47,22 +47,26 @@ img {
 	font-size: 40px;
 	font-weight: 500;
 }
-.longText div {
-	line-height: 1.5;
+.long-text div {
+	line-height: 1.4;
 }
-.titleText {
+.title-text {
 	font-size: 24px;
 	font-weight: 500;
-	margin: 10px 0;
+	margin-top: 15px;
+	margin-bottom: 5px;
 }
-.topTitleText {
+.top-title-text {
 	margin-top: 0;
 }
-.paddedContent {
+.padded-content {
 	margin: 20px;
 }
 .icon {
 	font-size: 12px;
+}
+.icon.large-icon {
+	font-size: 28px;
 }
 .fp-controlArrow.fp-prev {
 	border-color: transparent #000 transparent transparent;
