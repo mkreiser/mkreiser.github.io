@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#fullpage').fullpage();
+  $('#fullpage').fullpage();
 
-    $.fn.fullpage.reBuild();
+  $.fn.fullpage.reBuild();
 });
