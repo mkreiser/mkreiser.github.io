@@ -1,0 +1,161 @@
+////////////////////////////////////
+// FONTS
+////////////////////////////////////
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@font-face {
+    font-family: Icomoon;
+    src: url('../fonts/icomoon.ttf');
+}
+
+////////////////////////////////////
+// VARIABLES
+////////////////////////////////////
+$animation-delay-increment: 0.5s;
+$animation-initial-delay: 1s;
+$animation-length: 2s;
+$icon-size: 36px;
+$off-white: rgba(255, 255, 255, 0.6);
+$page-color: #1B2735;
+
+////////////////////////////////////
+// MIXINS
+////////////////////////////////////
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+////////////////////////////////////
+// ANIMATIONS
+////////////////////////////////////
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+////////////////////////////////////
+// GENERAL STYLES
+////////////////////////////////////
+* {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: $page-color;
+  height: 100%;
+  overflow: hidden;
+}
+
+#root, .app-container, .page-container {
+  height: 100%;
+}
+
+////////////////////////////////////
+// SPECIFIC STYLES
+////////////////////////////////////
+.page-container {
+  @include center;
+  flex-direction: column;
+
+  .name {
+    color: $off-white;
+    font-size: 48px;
+    font-weight: 300;
+    animation: fadeIn $animation-length;
+  }
+
+  .links-container {
+    position: absolute;
+    bottom: $icon-size;
+    display: flex;
+    flex-direction: row;
+
+    .icon {
+      animation: fadeIn $animation-length;
+      animation-fill-mode: forwards;
+      opacity: 0;
+      padding: 0 ($icon-size / 2);
+
+      &.github {
+        animation-delay: $animation-initial-delay;
+      }
+
+      &.linkedin {
+        animation-delay: $animation-initial-delay + $animation-delay-increment;
+      }
+
+      &.email {
+        animation-delay: $animation-initial-delay + (2 * $animation-delay-increment);
+      }
+    }
+  }
+}
+
+////////////////////////////////////
+// ICONS
+////////////////////////////////////
+.icon {
+  color: $off-white;
+  font-family: 'Icomoon';
+  font-size: $icon-size;
+}
+
+.email:before {
+  content: "\e900";
+}
+
+.github:before {
+  content: "\eab0";
+}
+
+.linkedin:before {
+  content: "\eaca";
+}
+
+////////////////////////////////////
+// METEOR STYLES
+////////////////////////////////////
+$meteor-color: rgba(255, 255, 255, 0.3);
+
+.meteor {
+  border: 2px solid transparent;
+  border-bottom: 120px solid $meteor-color;
+  position: absolute;
+  opacity: 0;
+  animation: shower 2s;
+
+  &:after {
+    content: '';
+    height: 4px;
+    width: 4px;
+    background: $meteor-color;
+    box-shadow: 0 0 15px 0 $meteor-color;
+  }
+}
+
+@for $i from 0 to 101 {
+  .meteor:nth-child(#{$i}) {
+     top: (random(10) * -1vh) - 20vh;
+     left: (random(105) * 1vw) - 25vw;
+     animation-delay: random(16 * 100) * .01s + 4s;
+  }
+}
+
+@keyframes shower {
+  0% {
+    transform: rotate(-30deg) scaleY(1);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-30deg) scaleY(1) translateY(220vh);
+    opacity: 0;
+  }
+}
