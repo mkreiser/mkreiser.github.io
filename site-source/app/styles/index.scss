@@ -52,10 +52,12 @@ html, body {
   background-color: $page-color;
   height: 100%;
   overflow: hidden;
+  zoom: 1;
 }
 
 #root, .app-container, .page-container {
   height: 100%;
+  width: 100%;
 }
 
 ////////////////////////////////////
@@ -141,10 +143,10 @@ $meteor-color: rgba(255, 255, 255, 0.3);
   }
 }
 
-@for $i from 0 to 101 {
+@for $i from 0 to 151 {
   .meteor:nth-child(#{$i}) {
      top: (random(10) * -1vh) - 20vh;
-     left: (random(105) * 1vw) - 25vw;
+     left: (random(150) * 1vw) - 75vw;
      animation-delay: random(16 * 100) * .01s + 4s;
   }
 }
@@ -155,7 +157,7 @@ $meteor-color: rgba(255, 255, 255, 0.3);
     opacity: 1;
   }
   100% {
-    transform: rotate(-30deg) scaleY(1) translateY(220vh);
+    transform: rotate(-30deg) scaleY(1) translateY(170vh);
     opacity: 0;
   }
 }
