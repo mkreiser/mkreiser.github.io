@@ -1,6 +1,6 @@
 import React from 'react';
 import { matchRoutes, renderRoutes } from 'react-router-config';
-import { HashRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import routes from './Routes';
 
