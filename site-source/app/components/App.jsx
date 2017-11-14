@@ -9,8 +9,8 @@ class App extends React.Component {
 
   componentDidMount() {
     const reset = (e) => {
-      e.target.style.webkitAnimation = 'none';
-      setTimeout(() =>  e.target.style.webkitAnimation = '', 0);
+      e.target.className = '';
+      setTimeout(() => e.target.className = 'meteor', 0);
     };
 
     const meteors = document.querySelectorAll('.meteor');
@@ -39,11 +39,13 @@ class App extends React.Component {
             ></a>
           </div>
         </div>
-        {
-          _.map(_.range(150), (num) => {
-            return (<div className="meteor" key={num}></div>);
-          })
-        }
+        <div className='meteor-container'>
+          {
+            _.map(_.range(150), (num) => {
+              return (<span className="meteor" key={num}></span>);
+            })
+          }
+        </div>
       </div>
     );
   }

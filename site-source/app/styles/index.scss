@@ -52,17 +52,30 @@ html, body {
   background-color: $page-color;
   height: 100%;
   overflow: hidden;
-  zoom: 1;
 }
 
-#root, .app-container, .page-container {
-  height: 100%;
-  width: 100%;
+a {
+  text-decoration: inherit;
 }
 
 ////////////////////////////////////
 // SPECIFIC STYLES
 ////////////////////////////////////
+#root, .app-container, .page-container {
+  height: 100%;
+  width: 100%;
+}
+
+.app-container {
+  position: relative;
+}
+
+.meteor-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .page-container {
   @include center;
   flex-direction: column;
