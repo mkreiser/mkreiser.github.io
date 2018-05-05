@@ -1,2 +1,2 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);*{font-family:Open Sans,sans-serif;margin:0;padding:0}#root,.app,body,html{height:100%;width:100%}.app-container{margin:0 auto;max-width:1000px;padding:25px}.badge>div{width:100%}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);*{font-family:Open Sans,sans-serif;margin:0;padding:0}body,html{height:100%}#root,.app{min-height:100vh}.app-container{margin:0 auto;max-width:1000px;padding:25px}.badge>div{width:100%}
 /*# sourceMappingURL=style.css.map*/
