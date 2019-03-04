@@ -1,0 +1,956 @@
+* {
+  font-family: "Open Sans", "Times New Roman", serif;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: inherit; }
+  a:hover {
+    color: #69D2E7; }
+
+.fp-tableCell {
+  padding: 0 20px; }
+
+@font-face {
+  font-family: Icomoon;
+  src: url("../fonts/icomoon.ttf"); }
+
+.icon {
+  color: #000;
+  font-family: "Icomoon"; }
+  .icon.arrow-downward:before {
+    content: "\e900"; }
+  .icon.email:before {
+    content: "\e901"; }
+  .icon.resume:before {
+    content: "\e902"; }
+  .icon.github:before {
+    content: "\eab0"; }
+  .icon.npm:before {
+    content: "\eab1"; }
+  .icon.linkedin:before {
+    content: "\eaca"; }
+
+a.icon.email:hover {
+  color: #D44638; }
+
+a.icon.github:hover {
+  color: #7DBBE6; }
+
+a.icon.linkedin:hover {
+  color: #0077B5; }
+
+a.icon.npm:hover {
+  color: #CC3534; }
+
+.font-h1 {
+  font-size: 48px; }
+
+.font-h2 {
+  font-size: 36px; }
+
+.font-h3 {
+  font-size: 24px; }
+
+.font-h4 {
+  font-size: 18px; }
+
+.container {
+  height: 100%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; }
+  .container > * {
+    width: 100%; }
+
+.page-title {
+  margin-bottom: 20px; }
+
+.card {
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16), 0 0 3px 0 rgba(0, 0, 0, 0.12);
+  margin-bottom: 32px;
+  padding: 20px;
+  width: 100%; }
+  .card.no-centering-margin {
+    margin-bottom: 0; }
+  .card.no-padding {
+    padding: 0; }
+
+.image-page .image-card {
+  width: initial; }
+  .image-page .image-card > img {
+    max-height: 80vh;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.meteor-site.app-container, .meteor-site .page-container {
+  background-color: #1B2735;
+  height: 100%;
+  width: 100%; }
+
+.meteor-site.app-container {
+  position: relative; }
+
+.meteor-site .meteor-container {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.meteor-site .page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .meteor-site .page-container .name {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 48px;
+    font-weight: 300;
+    animation: fadeIn 2s; }
+  .meteor-site .page-container .links-container {
+    position: absolute;
+    bottom: 36px;
+    display: flex;
+    flex-direction: row; }
+    .meteor-site .page-container .links-container .icon {
+      animation: fadeIn 2s;
+      animation-fill-mode: forwards;
+      opacity: 0;
+      padding: 0 18px; }
+      .meteor-site .page-container .links-container .icon.github {
+        animation-delay: 1s; }
+      .meteor-site .page-container .links-container .icon.linkedin {
+        animation-delay: 1.5s; }
+      .meteor-site .page-container .links-container .icon.email {
+        animation-delay: 2s; }
+
+.meteor-site .icon {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 36px; }
+
+.meteor-site .meteor {
+  border: 2px solid transparent;
+  border-bottom: 120px solid rgba(255, 255, 255, 0.3);
+  position: absolute;
+  opacity: 0;
+  animation: shower 2s; }
+  .meteor-site .meteor:after {
+    content: '';
+    height: 4px;
+    width: 4px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.3); }
+
+.meteor-site .meteor:nth-child(0) {
+  top: -29vh;
+  left: 29vw;
+  animation-delay: 19.56s; }
+
+.meteor-site .meteor:nth-child(1) {
+  top: -22vh;
+  left: 17vw;
+  animation-delay: 10.8s; }
+
+.meteor-site .meteor:nth-child(2) {
+  top: -28vh;
+  left: -2vw;
+  animation-delay: 5.42s; }
+
+.meteor-site .meteor:nth-child(3) {
+  top: -24vh;
+  left: 10vw;
+  animation-delay: 10.28s; }
+
+.meteor-site .meteor:nth-child(4) {
+  top: -23vh;
+  left: 44vw;
+  animation-delay: 6.74s; }
+
+.meteor-site .meteor:nth-child(5) {
+  top: -26vh;
+  left: 35vw;
+  animation-delay: 15.61s; }
+
+.meteor-site .meteor:nth-child(6) {
+  top: -27vh;
+  left: 68vw;
+  animation-delay: 19.54s; }
+
+.meteor-site .meteor:nth-child(7) {
+  top: -21vh;
+  left: 12vw;
+  animation-delay: 9.5s; }
+
+.meteor-site .meteor:nth-child(8) {
+  top: -25vh;
+  left: -32vw;
+  animation-delay: 5.39s; }
+
+.meteor-site .meteor:nth-child(9) {
+  top: -22vh;
+  left: 0vw;
+  animation-delay: 13.91s; }
+
+.meteor-site .meteor:nth-child(10) {
+  top: -26vh;
+  left: -7vw;
+  animation-delay: 7.36s; }
+
+.meteor-site .meteor:nth-child(11) {
+  top: -27vh;
+  left: -66vw;
+  animation-delay: 9.67s; }
+
+.meteor-site .meteor:nth-child(12) {
+  top: -28vh;
+  left: 68vw;
+  animation-delay: 10.66s; }
+
+.meteor-site .meteor:nth-child(13) {
+  top: -25vh;
+  left: -32vw;
+  animation-delay: 6.69s; }
+
+.meteor-site .meteor:nth-child(14) {
+  top: -25vh;
+  left: -37vw;
+  animation-delay: 19.78s; }
+
+.meteor-site .meteor:nth-child(15) {
+  top: -26vh;
+  left: -12vw;
+  animation-delay: 7.96s; }
+
+.meteor-site .meteor:nth-child(16) {
+  top: -28vh;
+  left: -54vw;
+  animation-delay: 18.54s; }
+
+.meteor-site .meteor:nth-child(17) {
+  top: -22vh;
+  left: 57vw;
+  animation-delay: 12.18s; }
+
+.meteor-site .meteor:nth-child(18) {
+  top: -28vh;
+  left: 5vw;
+  animation-delay: 16.19s; }
+
+.meteor-site .meteor:nth-child(19) {
+  top: -21vh;
+  left: 0vw;
+  animation-delay: 15.63s; }
+
+.meteor-site .meteor:nth-child(20) {
+  top: -24vh;
+  left: 52vw;
+  animation-delay: 12.99s; }
+
+.meteor-site .meteor:nth-child(21) {
+  top: -29vh;
+  left: -30vw;
+  animation-delay: 12.99s; }
+
+.meteor-site .meteor:nth-child(22) {
+  top: -21vh;
+  left: 17vw;
+  animation-delay: 10.69s; }
+
+.meteor-site .meteor:nth-child(23) {
+  top: -26vh;
+  left: -23vw;
+  animation-delay: 8.5s; }
+
+.meteor-site .meteor:nth-child(24) {
+  top: -23vh;
+  left: -18vw;
+  animation-delay: 13.93s; }
+
+.meteor-site .meteor:nth-child(25) {
+  top: -29vh;
+  left: 53vw;
+  animation-delay: 8.13s; }
+
+.meteor-site .meteor:nth-child(26) {
+  top: -28vh;
+  left: -67vw;
+  animation-delay: 17.03s; }
+
+.meteor-site .meteor:nth-child(27) {
+  top: -27vh;
+  left: -35vw;
+  animation-delay: 19.55s; }
+
+.meteor-site .meteor:nth-child(28) {
+  top: -29vh;
+  left: 26vw;
+  animation-delay: 16.39s; }
+
+.meteor-site .meteor:nth-child(29) {
+  top: -25vh;
+  left: -36vw;
+  animation-delay: 4.22s; }
+
+.meteor-site .meteor:nth-child(30) {
+  top: -24vh;
+  left: -32vw;
+  animation-delay: 4.25s; }
+
+.meteor-site .meteor:nth-child(31) {
+  top: -27vh;
+  left: -52vw;
+  animation-delay: 5.76s; }
+
+.meteor-site .meteor:nth-child(32) {
+  top: -26vh;
+  left: 47vw;
+  animation-delay: 14.82s; }
+
+.meteor-site .meteor:nth-child(33) {
+  top: -22vh;
+  left: 54vw;
+  animation-delay: 5.4s; }
+
+.meteor-site .meteor:nth-child(34) {
+  top: -24vh;
+  left: -15vw;
+  animation-delay: 4.69s; }
+
+.meteor-site .meteor:nth-child(35) {
+  top: -28vh;
+  left: 41vw;
+  animation-delay: 17.21s; }
+
+.meteor-site .meteor:nth-child(36) {
+  top: -24vh;
+  left: 22vw;
+  animation-delay: 7.33s; }
+
+.meteor-site .meteor:nth-child(37) {
+  top: -28vh;
+  left: 73vw;
+  animation-delay: 10.72s; }
+
+.meteor-site .meteor:nth-child(38) {
+  top: -30vh;
+  left: -37vw;
+  animation-delay: 18.34s; }
+
+.meteor-site .meteor:nth-child(39) {
+  top: -30vh;
+  left: 0vw;
+  animation-delay: 11.75s; }
+
+.meteor-site .meteor:nth-child(40) {
+  top: -23vh;
+  left: 41vw;
+  animation-delay: 13.94s; }
+
+.meteor-site .meteor:nth-child(41) {
+  top: -24vh;
+  left: -39vw;
+  animation-delay: 14.8s; }
+
+.meteor-site .meteor:nth-child(42) {
+  top: -29vh;
+  left: 41vw;
+  animation-delay: 17.61s; }
+
+.meteor-site .meteor:nth-child(43) {
+  top: -26vh;
+  left: 27vw;
+  animation-delay: 5.95s; }
+
+.meteor-site .meteor:nth-child(44) {
+  top: -26vh;
+  left: 74vw;
+  animation-delay: 16.58s; }
+
+.meteor-site .meteor:nth-child(45) {
+  top: -23vh;
+  left: 42vw;
+  animation-delay: 12.76s; }
+
+.meteor-site .meteor:nth-child(46) {
+  top: -29vh;
+  left: 62vw;
+  animation-delay: 6.9s; }
+
+.meteor-site .meteor:nth-child(47) {
+  top: -23vh;
+  left: 47vw;
+  animation-delay: 16.19s; }
+
+.meteor-site .meteor:nth-child(48) {
+  top: -22vh;
+  left: -73vw;
+  animation-delay: 7.89s; }
+
+.meteor-site .meteor:nth-child(49) {
+  top: -25vh;
+  left: -66vw;
+  animation-delay: 5.42s; }
+
+.meteor-site .meteor:nth-child(50) {
+  top: -21vh;
+  left: 27vw;
+  animation-delay: 10.62s; }
+
+.meteor-site .meteor:nth-child(51) {
+  top: -25vh;
+  left: -58vw;
+  animation-delay: 5.72s; }
+
+.meteor-site .meteor:nth-child(52) {
+  top: -25vh;
+  left: -59vw;
+  animation-delay: 5.52s; }
+
+.meteor-site .meteor:nth-child(53) {
+  top: -26vh;
+  left: 58vw;
+  animation-delay: 5.36s; }
+
+.meteor-site .meteor:nth-child(54) {
+  top: -22vh;
+  left: -36vw;
+  animation-delay: 11.71s; }
+
+.meteor-site .meteor:nth-child(55) {
+  top: -24vh;
+  left: -67vw;
+  animation-delay: 15.26s; }
+
+.meteor-site .meteor:nth-child(56) {
+  top: -22vh;
+  left: 11vw;
+  animation-delay: 12.61s; }
+
+.meteor-site .meteor:nth-child(57) {
+  top: -25vh;
+  left: -38vw;
+  animation-delay: 10.11s; }
+
+.meteor-site .meteor:nth-child(58) {
+  top: -22vh;
+  left: -45vw;
+  animation-delay: 12.21s; }
+
+.meteor-site .meteor:nth-child(59) {
+  top: -30vh;
+  left: 63vw;
+  animation-delay: 17.45s; }
+
+.meteor-site .meteor:nth-child(60) {
+  top: -24vh;
+  left: -18vw;
+  animation-delay: 10.54s; }
+
+.meteor-site .meteor:nth-child(61) {
+  top: -22vh;
+  left: -21vw;
+  animation-delay: 13.3s; }
+
+.meteor-site .meteor:nth-child(62) {
+  top: -22vh;
+  left: -14vw;
+  animation-delay: 12.14s; }
+
+.meteor-site .meteor:nth-child(63) {
+  top: -22vh;
+  left: 17vw;
+  animation-delay: 10.03s; }
+
+.meteor-site .meteor:nth-child(64) {
+  top: -21vh;
+  left: -57vw;
+  animation-delay: 6.27s; }
+
+.meteor-site .meteor:nth-child(65) {
+  top: -28vh;
+  left: 60vw;
+  animation-delay: 8.3s; }
+
+.meteor-site .meteor:nth-child(66) {
+  top: -26vh;
+  left: 44vw;
+  animation-delay: 7.72s; }
+
+.meteor-site .meteor:nth-child(67) {
+  top: -24vh;
+  left: -31vw;
+  animation-delay: 11.72s; }
+
+.meteor-site .meteor:nth-child(68) {
+  top: -26vh;
+  left: -31vw;
+  animation-delay: 11.56s; }
+
+.meteor-site .meteor:nth-child(69) {
+  top: -30vh;
+  left: 39vw;
+  animation-delay: 10.03s; }
+
+.meteor-site .meteor:nth-child(70) {
+  top: -28vh;
+  left: -71vw;
+  animation-delay: 5.09s; }
+
+.meteor-site .meteor:nth-child(71) {
+  top: -29vh;
+  left: -26vw;
+  animation-delay: 16.49s; }
+
+.meteor-site .meteor:nth-child(72) {
+  top: -26vh;
+  left: -1vw;
+  animation-delay: 5.83s; }
+
+.meteor-site .meteor:nth-child(73) {
+  top: -28vh;
+  left: 45vw;
+  animation-delay: 14.16s; }
+
+.meteor-site .meteor:nth-child(74) {
+  top: -22vh;
+  left: -22vw;
+  animation-delay: 5.65s; }
+
+.meteor-site .meteor:nth-child(75) {
+  top: -28vh;
+  left: -16vw;
+  animation-delay: 13.07s; }
+
+.meteor-site .meteor:nth-child(76) {
+  top: -28vh;
+  left: 20vw;
+  animation-delay: 11.3s; }
+
+.meteor-site .meteor:nth-child(77) {
+  top: -25vh;
+  left: -53vw;
+  animation-delay: 9.19s; }
+
+.meteor-site .meteor:nth-child(78) {
+  top: -26vh;
+  left: -21vw;
+  animation-delay: 15.09s; }
+
+.meteor-site .meteor:nth-child(79) {
+  top: -21vh;
+  left: -66vw;
+  animation-delay: 19.68s; }
+
+.meteor-site .meteor:nth-child(80) {
+  top: -21vh;
+  left: -65vw;
+  animation-delay: 7.57s; }
+
+.meteor-site .meteor:nth-child(81) {
+  top: -25vh;
+  left: -73vw;
+  animation-delay: 7.46s; }
+
+.meteor-site .meteor:nth-child(82) {
+  top: -29vh;
+  left: 17vw;
+  animation-delay: 10.03s; }
+
+.meteor-site .meteor:nth-child(83) {
+  top: -22vh;
+  left: 41vw;
+  animation-delay: 16.48s; }
+
+.meteor-site .meteor:nth-child(84) {
+  top: -26vh;
+  left: -5vw;
+  animation-delay: 7.01s; }
+
+.meteor-site .meteor:nth-child(85) {
+  top: -21vh;
+  left: 72vw;
+  animation-delay: 13.66s; }
+
+.meteor-site .meteor:nth-child(86) {
+  top: -28vh;
+  left: -14vw;
+  animation-delay: 4.42s; }
+
+.meteor-site .meteor:nth-child(87) {
+  top: -23vh;
+  left: -38vw;
+  animation-delay: 17.53s; }
+
+.meteor-site .meteor:nth-child(88) {
+  top: -29vh;
+  left: 19vw;
+  animation-delay: 6.62s; }
+
+.meteor-site .meteor:nth-child(89) {
+  top: -26vh;
+  left: -33vw;
+  animation-delay: 5.53s; }
+
+.meteor-site .meteor:nth-child(90) {
+  top: -24vh;
+  left: 75vw;
+  animation-delay: 8.26s; }
+
+.meteor-site .meteor:nth-child(91) {
+  top: -21vh;
+  left: 12vw;
+  animation-delay: 6.59s; }
+
+.meteor-site .meteor:nth-child(92) {
+  top: -26vh;
+  left: -68vw;
+  animation-delay: 14.18s; }
+
+.meteor-site .meteor:nth-child(93) {
+  top: -29vh;
+  left: -57vw;
+  animation-delay: 17.29s; }
+
+.meteor-site .meteor:nth-child(94) {
+  top: -25vh;
+  left: 74vw;
+  animation-delay: 17.51s; }
+
+.meteor-site .meteor:nth-child(95) {
+  top: -22vh;
+  left: 28vw;
+  animation-delay: 14.27s; }
+
+.meteor-site .meteor:nth-child(96) {
+  top: -21vh;
+  left: 74vw;
+  animation-delay: 17.81s; }
+
+.meteor-site .meteor:nth-child(97) {
+  top: -28vh;
+  left: -69vw;
+  animation-delay: 5.07s; }
+
+.meteor-site .meteor:nth-child(98) {
+  top: -23vh;
+  left: -42vw;
+  animation-delay: 17.32s; }
+
+.meteor-site .meteor:nth-child(99) {
+  top: -28vh;
+  left: -63vw;
+  animation-delay: 14.75s; }
+
+.meteor-site .meteor:nth-child(100) {
+  top: -27vh;
+  left: 34vw;
+  animation-delay: 15.23s; }
+
+.meteor-site .meteor:nth-child(101) {
+  top: -26vh;
+  left: -62vw;
+  animation-delay: 18.32s; }
+
+.meteor-site .meteor:nth-child(102) {
+  top: -28vh;
+  left: 36vw;
+  animation-delay: 16.13s; }
+
+.meteor-site .meteor:nth-child(103) {
+  top: -21vh;
+  left: -49vw;
+  animation-delay: 19.45s; }
+
+.meteor-site .meteor:nth-child(104) {
+  top: -27vh;
+  left: 27vw;
+  animation-delay: 10.41s; }
+
+.meteor-site .meteor:nth-child(105) {
+  top: -25vh;
+  left: 6vw;
+  animation-delay: 16.44s; }
+
+.meteor-site .meteor:nth-child(106) {
+  top: -30vh;
+  left: 45vw;
+  animation-delay: 5.57s; }
+
+.meteor-site .meteor:nth-child(107) {
+  top: -28vh;
+  left: 51vw;
+  animation-delay: 7.81s; }
+
+.meteor-site .meteor:nth-child(108) {
+  top: -26vh;
+  left: -2vw;
+  animation-delay: 11.65s; }
+
+.meteor-site .meteor:nth-child(109) {
+  top: -27vh;
+  left: 72vw;
+  animation-delay: 9.88s; }
+
+.meteor-site .meteor:nth-child(110) {
+  top: -24vh;
+  left: 70vw;
+  animation-delay: 7.17s; }
+
+.meteor-site .meteor:nth-child(111) {
+  top: -27vh;
+  left: -9vw;
+  animation-delay: 19.04s; }
+
+.meteor-site .meteor:nth-child(112) {
+  top: -26vh;
+  left: -59vw;
+  animation-delay: 15.12s; }
+
+.meteor-site .meteor:nth-child(113) {
+  top: -22vh;
+  left: 60vw;
+  animation-delay: 18.81s; }
+
+.meteor-site .meteor:nth-child(114) {
+  top: -24vh;
+  left: 55vw;
+  animation-delay: 13.92s; }
+
+.meteor-site .meteor:nth-child(115) {
+  top: -27vh;
+  left: -36vw;
+  animation-delay: 4.32s; }
+
+.meteor-site .meteor:nth-child(116) {
+  top: -26vh;
+  left: 21vw;
+  animation-delay: 15.64s; }
+
+.meteor-site .meteor:nth-child(117) {
+  top: -26vh;
+  left: -17vw;
+  animation-delay: 12.77s; }
+
+.meteor-site .meteor:nth-child(118) {
+  top: -26vh;
+  left: -33vw;
+  animation-delay: 14.52s; }
+
+.meteor-site .meteor:nth-child(119) {
+  top: -26vh;
+  left: -16vw;
+  animation-delay: 16.29s; }
+
+.meteor-site .meteor:nth-child(120) {
+  top: -21vh;
+  left: -43vw;
+  animation-delay: 17.7s; }
+
+.meteor-site .meteor:nth-child(121) {
+  top: -30vh;
+  left: -40vw;
+  animation-delay: 11.82s; }
+
+.meteor-site .meteor:nth-child(122) {
+  top: -23vh;
+  left: -68vw;
+  animation-delay: 19.78s; }
+
+.meteor-site .meteor:nth-child(123) {
+  top: -26vh;
+  left: -56vw;
+  animation-delay: 11.57s; }
+
+.meteor-site .meteor:nth-child(124) {
+  top: -21vh;
+  left: 3vw;
+  animation-delay: 19.38s; }
+
+.meteor-site .meteor:nth-child(125) {
+  top: -25vh;
+  left: 12vw;
+  animation-delay: 13.98s; }
+
+.meteor-site .meteor:nth-child(126) {
+  top: -24vh;
+  left: -44vw;
+  animation-delay: 11.84s; }
+
+.meteor-site .meteor:nth-child(127) {
+  top: -26vh;
+  left: 56vw;
+  animation-delay: 8.86s; }
+
+.meteor-site .meteor:nth-child(128) {
+  top: -25vh;
+  left: -9vw;
+  animation-delay: 15.68s; }
+
+.meteor-site .meteor:nth-child(129) {
+  top: -25vh;
+  left: -3vw;
+  animation-delay: 10.85s; }
+
+.meteor-site .meteor:nth-child(130) {
+  top: -28vh;
+  left: -62vw;
+  animation-delay: 20s; }
+
+.meteor-site .meteor:nth-child(131) {
+  top: -30vh;
+  left: -29vw;
+  animation-delay: 16.64s; }
+
+.meteor-site .meteor:nth-child(132) {
+  top: -21vh;
+  left: 29vw;
+  animation-delay: 12.47s; }
+
+.meteor-site .meteor:nth-child(133) {
+  top: -24vh;
+  left: 75vw;
+  animation-delay: 7.2s; }
+
+.meteor-site .meteor:nth-child(134) {
+  top: -23vh;
+  left: 4vw;
+  animation-delay: 9.57s; }
+
+.meteor-site .meteor:nth-child(135) {
+  top: -22vh;
+  left: 13vw;
+  animation-delay: 8.93s; }
+
+.meteor-site .meteor:nth-child(136) {
+  top: -24vh;
+  left: 0vw;
+  animation-delay: 7.93s; }
+
+.meteor-site .meteor:nth-child(137) {
+  top: -30vh;
+  left: -68vw;
+  animation-delay: 9.94s; }
+
+.meteor-site .meteor:nth-child(138) {
+  top: -29vh;
+  left: -16vw;
+  animation-delay: 17.73s; }
+
+.meteor-site .meteor:nth-child(139) {
+  top: -27vh;
+  left: -26vw;
+  animation-delay: 16.91s; }
+
+.meteor-site .meteor:nth-child(140) {
+  top: -28vh;
+  left: -63vw;
+  animation-delay: 15s; }
+
+.meteor-site .meteor:nth-child(141) {
+  top: -26vh;
+  left: 39vw;
+  animation-delay: 10.89s; }
+
+.meteor-site .meteor:nth-child(142) {
+  top: -21vh;
+  left: 74vw;
+  animation-delay: 13.63s; }
+
+.meteor-site .meteor:nth-child(143) {
+  top: -29vh;
+  left: 31vw;
+  animation-delay: 18.09s; }
+
+.meteor-site .meteor:nth-child(144) {
+  top: -29vh;
+  left: -11vw;
+  animation-delay: 5.74s; }
+
+.meteor-site .meteor:nth-child(145) {
+  top: -26vh;
+  left: -20vw;
+  animation-delay: 16.44s; }
+
+.meteor-site .meteor:nth-child(146) {
+  top: -24vh;
+  left: 14vw;
+  animation-delay: 6.65s; }
+
+.meteor-site .meteor:nth-child(147) {
+  top: -27vh;
+  left: 68vw;
+  animation-delay: 6.55s; }
+
+.meteor-site .meteor:nth-child(148) {
+  top: -24vh;
+  left: 52vw;
+  animation-delay: 16.78s; }
+
+.meteor-site .meteor:nth-child(149) {
+  top: -22vh;
+  left: -46vw;
+  animation-delay: 12.39s; }
+
+.meteor-site .meteor:nth-child(150) {
+  top: -22vh;
+  left: -21vw;
+  animation-delay: 11.33s; }
+
+@keyframes shower {
+  0% {
+    transform: rotate(-30deg) scaleY(1);
+    opacity: 1; }
+  100% {
+    transform: rotate(-30deg) scaleY(1) translateY(170vh);
+    opacity: 0; } }
+
+.title-page .name {
+  font-size: 48px; }
+
+.title-page .arrow-downward {
+  font-size: 24px;
+  position: absolute;
+  padding-top: 20px; }
+
+.meteor-page .card {
+  height: 80%; }
+
+.open-source-page .card .icon {
+  font-size: 20px;
+  margin-left: 10px; }
+
+.open-source-page .card > *:not(.page-title) {
+  line-height: 1.5; }
+
+.contact-page .container {
+  text-align: center; }
+  .contact-page .container, .contact-page .container > .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: initial; }
+  .contact-page .container .icon {
+    font-size: 48px;
+    margin: 0 40px; }
+
+.footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0; }
+  .footer > * {
+    flex-grow: 1; }
+  .footer .right-content {
+    text-align: right; }
+    .footer .right-content .icon:not(:first-of-type) {
+      margin-left: 10px; }
